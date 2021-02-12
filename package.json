@@ -1,0 +1,25 @@
+{
+  "name": "fightclub",
+  "version": "1.0.0",
+  "description": "BOXING PICK'EM GAME -> Mean stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "cors": "*",
+    "bcryptjs": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "author": "Brendan DeLancey and Caleb Stanley",
+  "license": "ISC"
+}
